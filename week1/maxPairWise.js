@@ -1,5 +1,4 @@
 const { performance } = require("perf_hooks");
-
 // max pairwise product
 
 //nested loops

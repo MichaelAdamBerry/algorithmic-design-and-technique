@@ -20,7 +20,4 @@ function naiveTests() {
 }
 naiveTests();
 
-function euclideanSolution(a, b) {
-    if 
-
-}
+function euclideanSolution(a, b) {}

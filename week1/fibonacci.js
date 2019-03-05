@@ -22,7 +22,7 @@ fibTest();
 //--------------- FASTER ----- create each value of fibinacci sequence with a for loop  and an array.
 
 function fasterFib(n) {
-  fibArr = [0, 1];
+  const fibArr = [0, 1];
   for (let i = 0; i < n + 1; i++) {
     if (i > 1) {
       let num = fibArr[i - 1] + fibArr[i - 2];
@@ -72,4 +72,5 @@ console.log("...........perfTest faster fib..........");
 perfTest([10, 30, 55], { fasterFib: fasterFib });
 
 console.log("........... perfTest of fibonacci...........");
-perfTest([10, 30, 55], { fibonacci: fibonacci });
+//no need to include 55. takes forever
+perfTest([10, 30], { fibonacci: fibonacci });
