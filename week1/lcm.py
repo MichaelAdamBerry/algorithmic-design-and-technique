@@ -43,9 +43,6 @@ def perfTest(pair):
     print(format(end - start, "f"))
 
 
-# TODO make generate test func to make test values
-
-
 def generateTests():
     i = 10
     while i > 0:
